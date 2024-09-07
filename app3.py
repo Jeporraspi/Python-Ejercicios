@@ -17,5 +17,5 @@ def promediodenotas():
     return promedio
 
 promedio = promediodenotas()
-print("El promedio:", promedio)
+print("El promedio:", promedio) 
 """
