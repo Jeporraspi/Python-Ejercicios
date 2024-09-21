@@ -7,7 +7,7 @@ total = sum(mi_lista)
 print(total)
 
 #2. Contar la cantidad de elementos pares en una lista:
-def contar_pares(ingreso_numeros):
+"""def contar_pares(ingreso_numeros):
   contador = 0
   for numero in ingreso_numeros:
     if numero % 2 == 0:
@@ -24,20 +24,3 @@ while contador_ingresos < 4:
     print("Por favor, ingrese un número entero.")
 cantidad_pares = contar_pares(numeros)
 8
-print("La totalidad de números pares es:", cantidad_pares)
-
-#4. Crear una nueva lista con los elementos de otra lista multiplicados por 2.
-#Primero se debe definir la lista. 
-lista_multiplicacion = [2, 4, 6, 8, 10]
-
-#Segundo se crea una nueva lista con los elementos a multiplicar por 2. 
-#For elemento in lista_multiplicación, recorre la primera lista y se va ejecutando la expresion elemento * 2
-
-nueva_lista = [elemento * 2 for elemento in lista_multiplicacion]
-
-print(nueva_lista)
-
-#5. Invertir una lista.
-lista_nueva = [5, 6, 7, 8, 9, 10, 11]
-lista_nueva.reverse()
-print(lista_nueva)
